@@ -21,6 +21,6 @@
   "scripts": {
     "build": "webpack --config webpack.prod.config.js",
     "dev": "webpack-dev-server --hot --inline",
-    "setup": "yarn install"
+    "setup": "npm install"
   }
 }
