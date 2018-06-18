@@ -16,7 +16,5 @@ module.exports = {
   module: {
     rules: []
   },
-  plugins: {
-    minimize: true
-  }
+  minimize: true
 };
