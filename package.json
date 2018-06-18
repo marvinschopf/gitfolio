@@ -1,0 +1,24 @@
+{
+  "name": "gitfolio",
+  "version": "1.0.0",
+  "description": "Gitfolio - The git portfolio creator",
+  "main": "src/index.js",
+  "repository": "https://github.com/MagicMarvMan/gitfolio.git",
+  "author": "MagicMarvMan",
+  "license": "GPL-v3-or-later",
+  "private": false,
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-polyfill": "^6.26.0",
+    "css-loader": "^0.28.11",
+    "sass-loader": "^7.0.3",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.12.0",
+    "webpack-command": "^0.2.1"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.prod.config.js",
+    "dev": "webpack-dev-server --hot --inline"
+  }
+}
